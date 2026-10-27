@@ -1,0 +1,39 @@
+{
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/scancode-toolkit",
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:AnalysisCode",
+    "@type": "@id"
+  },
+  "appliesToProgrammingLanguage": [
+    "Python"
+  ],
+  "description": "ScanCode Toolkit is a set of code scanning tools that detect the origin (copyrights), license and vulnerabilities of code, packages and dependencies in a codebase. ",
+  "hasQualityDimension": [
+    {
+      "@id": "dim:open_source_software",
+      "@type": "@id"
+    },
+    {
+      "@id": "dim:security",
+      "@type": "@id"
+    },
+    {
+      "@id": "dim:compatibility",
+      "@type": "@id"
+    }
+  ],
+  "measuresQualityIndicator": {
+    "@id": "https://w3id.org/everse/i/indicators/software_has_license",
+    "@type": "@id"
+  },
+  "howToUse": [
+    "command-line",
+    "library"
+  ],
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/Apache-2.0.html",
+  "name": "ScanCode-Toolkit",
+  "url": "https://scancode-toolkit.readthedocs.io/"
+}
